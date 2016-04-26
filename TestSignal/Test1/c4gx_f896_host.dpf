@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pin_planner>
+	<pin_info>
+		<pin name="clkin_125m_p" direction="Input" source="Hierarchy Database" diff_pair_node="clkin_125m_p(n)" >
+		</pin>
+		<pin name="clkin_sma_p[1]" direction="Input" source="Hierarchy Database" diff_pair_node="clkin_sma_p[1](n)" >
+		</pin>
+		<pin name="clkin_sma_p[0]" direction="Input" source="Hierarchy Database" diff_pair_node="clkin_sma_p[0](n)" >
+		</pin>
+		<pin name="hsma_clk_out_p[2]" direction="Output" source="Hierarchy Database" diff_pair_node="hsma_clk_out_p[2](n)" >
+		</pin>
+		<pin name="hsma_clk_out_p[1]" direction="Output" source="Hierarchy Database" diff_pair_node="hsma_clk_out_p[1](n)" >
+		</pin>
+		<pin name="hsma_rx_p" direction="Input" source="Hierarchy Database" diff_pair_node="hsma_rx_p(n)" >
+		</pin>
+		<pin name="hsma_tx_p[1]" direction="Output" source="Hierarchy Database" diff_pair_node="hsma_tx_p[1](n)" >
+		</pin>
+		<pin name="hsma_tx_p[0]" direction="Output" source="Hierarchy Database" diff_pair_node="hsma_tx_p[0](n)" >
+		</pin>
+		<pin name="hsma_tx_p[1](n)" direction="Output" source="Assignments" diff_pair_node="hsma_tx_p[1]" >
+		</pin>
+		<pin name="hsma_tx_p[0](n)" direction="Output" source="Assignments" diff_pair_node="hsma_tx_p[0]" >
+		</pin>
+		<pin name="clkin_125m_p(n)" direction="Input" source="Assignments" diff_pair_node="clkin_125m_p" >
+		</pin>
+		<pin name="clkin_sma_p[1](n)" direction="Input" source="Assignments" diff_pair_node="clkin_sma_p[1]" >
+		</pin>
+		<pin name="clkin_sma_p[0](n)" direction="Input" source="Assignments" diff_pair_node="clkin_sma_p[0]" >
+		</pin>
+		<pin name="hsma_rx_p(n)" direction="Input" source="Assignments" diff_pair_node="hsma_rx_p" >
+		</pin>
+		<pin name="hsma_clk_out_p[1](n)" direction="Output" source="Assignments" diff_pair_node="hsma_clk_out_p[1]" >
+		</pin>
+		<pin name="hsma_clk_out_p[2](n)" direction="Output" source="Assignments" diff_pair_node="hsma_clk_out_p[2]" >
+		</pin>
+	</pin_info>
+	<buses>
+	</buses>
+	<group_file_association>
+	</group_file_association>
+	<pin_planner_file_specifies>
+	</pin_planner_file_specifies>
+</pin_planner>

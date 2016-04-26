@@ -1,0 +1,178 @@
+Restore Archived Project report for c4gx_f896_host
+Sun Apr 24 10:52:03 2016
+Quartus Prime Version 15.1.0 Build 185 10/21/2015 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Sun Apr 24 10:52:03 2016 ;
+; Revision Name                   ; c4gx_f896_host                        ;
+; Top-level Entity Name           ; c4gxsdi                               ;
+; Family                          ; Cyclone IV GX                         ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored 'C:/Users/P/Desktop/Altera/TestSignal/c4gxsdi_12.0sp2.qar' into the 'C:/Users/P/Desktop/Altera/TestSignal/Test1/' directory
+Info: Generated report 'c4gx_f896_host.restore.rpt'
+Info (23030): Evaluation of Tcl script c:/users/p/altera/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 657 megabytes
+    Info: Processing ended: Sun Apr 24 10:52:03 2016
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++-----------------------------------------------------------+
+; Files Restored                                            ;
++-----------------------------------------------------------+
+; File Name                                                 ;
++-----------------------------------------------------------+
+; C4gxSDI3G_rx_ch0.bsf                                      ;
+; C4gxSDI3G_rx_ch0.html                                     ;
+; C4gxSDI3G_rx_ch0.ppf                                      ;
+; C4gxSDI3G_rx_ch0.qip                                      ;
+; C4gxSDI3G_rx_ch0.v                                        ;
+; C4gxSDI3G_rx_ch0_constraints.tcl                          ;
+; C4gxSDI3G_rx_ch0_sdi.sdc                                  ;
+; C4gxSDI3G_tx_ch0.bsf                                      ;
+; C4gxSDI3G_tx_ch0.html                                     ;
+; C4gxSDI3G_tx_ch0.ppf                                      ;
+; C4gxSDI3G_tx_ch0.qip                                      ;
+; C4gxSDI3G_tx_ch0.v                                        ;
+; C4gxSDI3G_tx_ch0_constraints.tcl                          ;
+; C4gxSDI3G_tx_ch0_sdi.sdc                                  ;
+; C4gxSDI3G_tx_ch1.bsf                                      ;
+; C4gxSDI3G_tx_ch1.html                                     ;
+; C4gxSDI3G_tx_ch1.ppf                                      ;
+; C4gxSDI3G_tx_ch1.qip                                      ;
+; C4gxSDI3G_tx_ch1.v                                        ;
+; C4gxSDI3G_tx_ch1_constraints.tcl                          ;
+; C4gxSDI3G_tx_ch1_sdi.sdc                                  ;
+; assignment_defaults.qdf                                   ;
+; c4gx_f896_host.dpf                                        ;
+; c4gx_f896_host.qsf                                        ;
+; c4gx_f896_host_assignment_defaults.qdf                    ;
+; c4gxsdi.cdf                                               ;
+; c4gxsdi.qpf                                               ;
+; c4gxsdi.sdc                                               ;
+; c4gxsdi.v                                                 ;
+; hsmc_sdi.v                                                ;
+; incremental_db/compiled_partitions/c4gx_f896_host.db_info ;
+; megacore_build/lp_fifo.v                                  ;
+; megacore_build/pll_50to27MHz.v                            ;
+; megacore_build/pll_tx_pclks.v                             ;
+; pattern_gen/gen_colorbar_new.v                            ;
+; pattern_gen/gen_patho.v                                   ;
+; pattern_gen/sdi_makeframe.v                               ;
+; pattern_gen/sdi_pattern_gen.v                             ;
+; quartus.ini                                               ;
+; sdi-library/fifo_4x20.v                                   ;
+; sdi-library/fifo_4x25.v                                   ;
+; sdi-library/fifo_4x26.v                                   ;
+; sdi-library/gxb_duplex_1port_1485.v                       ;
+; sdi-library/gxb_duplex_1port_2970.v                       ;
+; sdi-library/gxb_rx_1port_1485.v                           ;
+; sdi-library/gxb_rx_1port_2970.v                           ;
+; sdi-library/gxb_rxsample.v                                ;
+; sdi-library/gxb_tx_1port_1485.v                           ;
+; sdi-library/gxb_tx_1port_2970.v                           ;
+; sdi-library/gxb_txsample.v                                ;
+; sdi-library/gxb_txsample_2xhd.v                           ;
+; sdi-library/hd_dual_link.v                                ;
+; sdi-library/hdsdi_crc.v                                   ;
+; sdi-library/hdsdi_extract_ln.v                            ;
+; sdi-library/hdsdi_insert_ln.v                             ;
+; sdi-library/rc_c4gxb_duplex_1pll.v                        ;
+; sdi-library/rc_c4gxb_duplex_2pll.v                        ;
+; sdi-library/rc_c4gxb_rx.v                                 ;
+; sdi-library/rc_c4gxb_tx.v                                 ;
+; sdi-library/rc_gxb_duplex.v                               ;
+; sdi-library/rc_gxb_rx.v                                   ;
+; sdi-library/rc_gxb_tx.v                                   ;
+; sdi-library/rc_s4gxb_duplex.v                             ;
+; sdi-library/rc_s4gxb_duplex_2pll.v                        ;
+; sdi-library/rc_s4gxb_rx.v                                 ;
+; sdi-library/rc_s4gxb_tx.v                                 ;
+; sdi-library/rc_s4gxb_tx_2pll.v                            ;
+; sdi-library/sdi_aligner_fsm.v                             ;
+; sdi-library/sdi_anctrack.v                                ;
+; sdi-library/sdi_clocks.v                                  ;
+; sdi-library/sdi_descrambler.v                             ;
+; sdi-library/sdi_format.v                                  ;
+; sdi-library/sdi_gxb_ctrl.v                                ;
+; sdi-library/sdi_master_avmm_ctrl.v                        ;
+; sdi-library/sdi_megacore_top.ocp                          ;
+; sdi-library/sdi_megacore_top.v                            ;
+; sdi-library/sdi_rate_detector.v                           ;
+; sdi-library/sdi_receive.v                                 ;
+; sdi-library/sdi_scrambler.v                               ;
+; sdi-library/sdi_tr_gxb_ctrl_s2gx.v                        ;
+; sdi-library/sdi_tr_gxb_ctrl_sv.v                          ;
+; sdi-library/sdi_tr_gxb_interface.v                        ;
+; sdi-library/sdi_tr_rate_detect.v                          ;
+; sdi-library/sdi_transmit.v                                ;
+; sdi-library/sdi_trsmatch.v                                ;
+; sdi-library/sdi_txrx_port.v                               ;
+; sdi-library/serdes_p2s.v                                  ;
+; sdi-library/serdes_rxsample.v                             ;
+; sdi-library/serdes_s2p.v                                  ;
+; sdi-library/soft_serdes_rx.v                              ;
+; sdi-library/xcvr_duplex.v                                 ;
+; sdi-library/xcvr_rx.v                                     ;
+; sdi-library/xcvr_tx.v                                     ;
+; sdi_dprio_civ/alt4gxb_gxb_reconfig.v                      ;
+; sdi_dprio_civ/c4gxb_altpll_reconfig.v                     ;
+; sdi_dprio_civ/pll_reconfiguration/pll_3g_rate.mif         ;
+; sdi_dprio_civ/pll_reconfiguration/pll_hd_rate.mif         ;
+; sdi_dprio_civ/pll_reconfiguration/pll_reconfig_control.v  ;
+; sdi_dprio_civ/pll_reconfiguration/pll_reconfig_fsm.v      ;
+; sdi_dprio_civ/pll_reconfiguration/pll_reconfig_mega.v     ;
+; sdi_dprio_civ/pll_reconfiguration/pll_rom_3g.qip          ;
+; sdi_dprio_civ/pll_reconfiguration/pll_rom_3g.v            ;
+; sdi_dprio_civ/pll_reconfiguration/pll_rom_3g_bb.v         ;
+; sdi_dprio_civ/pll_reconfiguration/pll_rom_hd.v            ;
++-----------------------------------------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+

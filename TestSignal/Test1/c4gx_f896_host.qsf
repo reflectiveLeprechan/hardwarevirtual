@@ -1,0 +1,321 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2010 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II
+# Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Full Version
+# Date created = 15:05:51  April 07, 2010
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		c4gx_f896_host_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV GX"
+set_global_assignment -name DEVICE EP4CGX150DF31C7
+set_global_assignment -name TOP_LEVEL_ENTITY c4gxsdi
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "9.1 SP2"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "15:05:51  APRIL 07, 2010"
+set_global_assignment -name LAST_QUARTUS_VERSION 15.1.0
+set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 896
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_instance_assignment -name IO_STANDARD "2.5 V" -to clkin_50
+set_instance_assignment -name IO_STANDARD "2.5 V" -to cpu_resetn
+set_instance_assignment -name IO_STANDARD LVDS -to hsma_clk_in_p[1] -disable
+set_instance_assignment -name IO_STANDARD LVDS -to hsma_clk_in_p[2] -disable
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_clk_in0
+set_instance_assignment -name IO_STANDARD LVDS -to hsma_clk_out_p[1]
+set_instance_assignment -name IO_STANDARD LVDS -to hsma_clk_out_p[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_clk_out0
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_d[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_d[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_d[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_d[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_rx_d_p[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_rx_d_p[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_rx_d_p[10]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_rx_d_p[11]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_rx_d_p[12]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_rx_d_p[13]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_rx_d_p[14]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_rx_d_p[15]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_rx_d_p[16]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_rx_d_p[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_rx_d_p[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_rx_d_p[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_rx_d_p[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_rx_d_p[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_rx_d_p[7]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_rx_d_p[8]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_rx_d_p[9]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_scl
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_sda
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_tx_d_p[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_tx_d_p[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_tx_d_p[10]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_tx_d_p[11] -disable
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_tx_d_p[12]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_tx_d_p[13]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_tx_d_p[14]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_tx_d_p[15]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_tx_d_p[16]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_tx_d_p[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_tx_d_p[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_tx_d_p[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_tx_d_p[5] -disable
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_tx_d_p[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_tx_d_p[7]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_tx_d_p[8]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_tx_d_p[9]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_prsntn
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_rx_led
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_tx_led
+set_instance_assignment -name IO_STANDARD "2.5 V" -to sys_resetn
+set_instance_assignment -name IO_STANDARD "2.5 V" -to user_dipsw[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to user_dipsw[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to user_dipsw[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to user_dipsw[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to user_dipsw[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to user_dipsw[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to user_dipsw[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to user_dipsw[7]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to user_led[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to user_led[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to user_led[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to user_led[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to user_pb[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to user_pb[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to user_pb[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to user_pb[3]
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_global_assignment -name IP_TOOL_NAME ALTPLL
+set_global_assignment -name IP_TOOL_NAME ALTGX
+set_global_assignment -name IP_TOOL_VERSION 9.1
+set_location_assignment PIN_AC27 -to hsma_d[0]
+set_location_assignment PIN_Y27 -to hsma_d[1]
+set_location_assignment PIN_AF30 -to hsma_d[2]
+set_location_assignment PIN_AD27 -to hsma_d[3]
+set_location_assignment PIN_C24 -to hsma_rx_led
+set_location_assignment PIN_B25 -to hsma_tx_led
+set_location_assignment PIN_A25 -to hsma_prsntn
+set_location_assignment PIN_A5 -to user_dipsw[0]
+set_location_assignment PIN_G15 -to user_dipsw[1]
+set_location_assignment PIN_E9 -to user_dipsw[2]
+set_location_assignment PIN_C8 -to user_dipsw[3]
+set_location_assignment PIN_C4 -to user_dipsw[4]
+set_location_assignment PIN_F14 -to user_dipsw[5]
+set_location_assignment PIN_G12 -to user_dipsw[6]
+set_location_assignment PIN_E7 -to user_dipsw[7]
+set_location_assignment PIN_E4 -to user_led[0]
+set_location_assignment PIN_C7 -to user_led[1]
+set_location_assignment PIN_A4 -to user_led[2] -disable
+set_location_assignment PIN_F6 -to user_led[3]
+set_location_assignment PIN_C12 -to user_pb[0]
+set_location_assignment PIN_D11 -to user_pb[1]
+set_location_assignment PIN_F4 -to user_pb[2]
+set_location_assignment PIN_D8 -to user_pb[3]
+set_location_assignment PIN_AF27 -to sys_resetn
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name OPTIMIZE_MULTI_CORNER_TIMING ON
+set_location_assignment PIN_AK16 -to clkin_50
+set_location_assignment PIN_D4 -to user_led[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to user_led[4]
+set_location_assignment PIN_D12 -to user_led[6]
+set_location_assignment PIN_B6 -to user_led[7]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to user_led[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to user_led[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to user_led[7]
+set_location_assignment PIN_A15 -to hsma_clk_in0
+set_instance_assignment -name IO_STANDARD "2.5 V" -to clkout_sma
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to clkin_125m_p
+set_location_assignment PIN_AF24 -to clkout_sma
+set_location_assignment PIN_G20 -to cpu_resetn
+set_global_assignment -name CYCLONEIII_CONFIGURATION_SCHEME "FAST PASSIVE PARALLEL"
+set_global_assignment -name FORCE_CONFIGURATION_VCCIO ON
+set_global_assignment -name RESERVE_DATA7_THROUGH_DATA2_AFTER_CONFIGURATION "AS INPUT TRI-STATED"
+set_global_assignment -name RESERVE_FLASH_NCE_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_location_assignment PIN_J9 -to user_led[5]
+set_global_assignment -name IOBANK_VCCIO 2.5V -section_id 5
+set_location_assignment PIN_B24 -to hsma_scl
+set_location_assignment PIN_C25 -to hsma_sda
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_instance_assignment -name IO_MAXIMUM_TOGGLE_RATE "0 MHz" -to hsma_clk_out0
+set_instance_assignment -name IO_MAXIMUM_TOGGLE_RATE "0 MHz" -to hsma_scl
+set_instance_assignment -name IO_MAXIMUM_TOGGLE_RATE "0 MHz" -to hsma_sda
+set_instance_assignment -name IO_MAXIMUM_TOGGLE_RATE "0 MHz" -to hsma_prsntn
+set_instance_assignment -name IO_MAXIMUM_TOGGLE_RATE "0 MHz" -to sys_resetn
+set_instance_assignment -name IO_MAXIMUM_TOGGLE_RATE "0 MHz" -to cpu_resetn
+set_global_assignment -name DEVICE_FILTER_SPEED_GRADE FASTEST
+set_location_assignment PIN_P4 -to hsma_tx_p[0]
+set_location_assignment PIN_M4 -to hsma_tx_p[1]
+set_location_assignment PIN_C29 -to hsma_tx_d_p[0]
+set_location_assignment PIN_E27 -to hsma_tx_d_p[1]
+set_location_assignment PIN_F26 -to hsma_tx_d_p[2]
+set_location_assignment PIN_F28 -to hsma_tx_d_p[4]
+set_location_assignment PIN_H30 -to hsma_tx_d_p[5]
+set_location_assignment PIN_J27 -to hsma_tx_d_p[10]
+set_location_assignment PIN_L27 -to hsma_tx_d_p[11]
+set_location_assignment PIN_M27 -to hsma_tx_d_p[12]
+set_location_assignment PIN_K26 -to hsma_tx_d_p[13]
+set_location_assignment PIN_K25 -to hsma_tx_d_p[14]
+set_location_assignment PIN_J25 -to hsma_tx_d_p[15]
+set_location_assignment PIN_M21 -to hsma_tx_d_p[16]
+set_location_assignment PIN_F27 -to hsma_tx_d_n[2]
+set_location_assignment PIN_E28 -to hsma_tx_d_n[1]
+set_location_assignment PIN_M22 -to hsma_tx_d_n[16]
+set_location_assignment PIN_H25 -to hsma_tx_d_n[15]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_tx_d_n[15]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_tx_d_[14]
+set_location_assignment PIN_J26 -to hsma_tx_d_n[14]
+set_location_assignment PIN_K27 -to hsma_tx_d_n[13]
+set_location_assignment PIN_M28 -to hsma_tx_d_n[12]
+set_location_assignment PIN_L28 -to hsma_tx_d_n[11]
+set_location_assignment PIN_H27 -to hsma_tx_d_n[10]
+set_location_assignment PIN_G30 -to hsma_tx_d_n[5]
+set_location_assignment PIN_F29 -to hsma_tx_d_n[4]
+set_location_assignment PIN_C30 -to hsma_tx_d_n[0]
+set_location_assignment PIN_AE29 -to hsma_clk_out0
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_tx_d_n[16]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_tx_d_n[14]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_tx_d_n[13]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_tx_d_n[12]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_tx_d_n[11]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_tx_d_n[10]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_tx_d_n[9]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_tx_d_n[8]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_tx_d_n[7]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_tx_d_n[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_tx_d_n[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_tx_d_n[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_tx_d_n[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_tx_d_n[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_tx_d_n[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hsma_tx_d_n[0]
+set_location_assignment PIN_V29 -to hsma_clk_in_p[2] -disable
+set_location_assignment PIN_V30 -to "hsma_clk_in_p[2](n)" -disable
+set_location_assignment PIN_M3 -to "hsma_tx_p[1](n)"
+set_location_assignment PIN_P3 -to "hsma_tx_p[0](n)"
+set_global_assignment -name ENABLE_SIGNALTAP OFF
+set_global_assignment -name USE_SIGNALTAP_FILE stp1.stp
+set_location_assignment PIN_L15 -to clkin_125m_p
+set_location_assignment PIN_K15 -to "clkin_125m_p(n)"
+set_location_assignment PIN_V11 -to clkin_sma_p[1]
+set_instance_assignment -name IO_STANDARD LVDS -to clkin_sma_p[1]
+set_location_assignment PIN_W11 -to "clkin_sma_p[1](n)"
+set_location_assignment PIN_L11 -to clkin_sma_p[0]
+set_instance_assignment -name IO_STANDARD LVDS -to clkin_sma_p[0]
+set_location_assignment PIN_K11 -to "clkin_sma_p[0](n)"
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to hsma_tx_p[1]
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to hsma_tx_p[0]
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to hsma_rx_p
+set_location_assignment PIN_R2 -to hsma_rx_p
+set_location_assignment PIN_R1 -to "hsma_rx_p(n)"
+set_global_assignment -name ENABLE_DRC_SETTINGS OFF
+set_location_assignment PIN_K28 -to hsma_clk_out_p[2]
+set_location_assignment PLL_6 -to u0_hsmc_sdi|u0_C4gxSDI3G_tx_ch0|sdi_megacore_top_inst|sdi_txrx_port_gen[0].u_txrx_port|gen_tx_alt_c4gxb.u_gxb|alt_c3gxb_component|auto_generated|pll0|pll1
+set_instance_assignment -name IO_MAXIMUM_TOGGLE_RATE "0 MHz" -to hsma_tx_d_n[5]
+set_instance_assignment -name IO_MAXIMUM_TOGGLE_RATE "0 MHz" -to hsma_tx_d_p[11]
+set_instance_assignment -name IO_MAXIMUM_TOGGLE_RATE "0 MHz" -to hsma_tx_d_p[5]
+set_instance_assignment -name IO_MAXIMUM_TOGGLE_RATE "0 MHz" -to hsma_tx_d_n[16]
+set_instance_assignment -name IO_MAXIMUM_TOGGLE_RATE "0 MHz" -to hsma_tx_d_n[11]
+set_instance_assignment -name IO_MAXIMUM_TOGGLE_RATE "0 MHz" -to hsma_tx_d_p[16]
+set_location_assignment PLL_7 -to u0_hsmc_sdi|u0_C4gxSDI3G_rx_ch0|sdi_megacore_top_inst|sdi_txrx_port_gen[0].u_txrx_port|gen_rx_alt_c4gxb.u_gxb|alt_c3gxb_component|auto_generated|pll0|pll1
+set_location_assignment PLL_8 -to u0_hsmc_sdi|u1_C4gxSDI3G_tx_ch1|sdi_megacore_top_inst|sdi_txrx_port_gen[0].u_txrx_port|gen_tx_alt_c4gxb.u_gxb|alt_c3gxb_component|auto_generated|pll0|pll1
+set_location_assignment PIN_W28 -to hsma_tx_d_p[3]
+set_location_assignment PIN_AH28 -to hsma_tx_d_p[6]
+set_location_assignment PIN_AF25 -to hsma_tx_d_p[7]
+set_location_assignment PIN_F18 -to hsma_tx_d_p[8]
+set_location_assignment PIN_AH17 -to hsma_tx_d_p[9]
+set_location_assignment PIN_B21 -to hsma_tx_d_n[3]
+set_location_assignment PIN_AG26 -to hsma_tx_d_n[6]
+set_location_assignment PIN_AK26 -to hsma_tx_d_n[7]
+set_location_assignment PIN_Y18 -to hsma_tx_d_n[8]
+set_location_assignment PIN_AC28 -to hsma_tx_d_n[9]
+set_location_assignment PIN_T30 -to hsma_rx_d_p[0]
+set_location_assignment PIN_T29 -to hsma_rx_d_p[1]
+set_location_assignment PIN_T23 -to hsma_rx_d_p[2]
+set_location_assignment PIN_AK24 -to hsma_rx_d_p[3]
+set_location_assignment PIN_AA22 -to hsma_rx_d_p[4]
+set_location_assignment PIN_AJ27 -to hsma_rx_d_p[5]
+set_location_assignment PIN_AK21 -to hsma_rx_d_p[6]
+set_location_assignment PIN_F25 -to hsma_rx_d_p[7]
+set_location_assignment PIN_AJ24 -to hsma_rx_d_p[8]
+set_location_assignment PIN_AA20 -to hsma_rx_d_p[9]
+set_location_assignment PIN_AE21 -to hsma_rx_d_p[10]
+set_location_assignment PIN_F24 -to hsma_rx_d_p[11]
+set_location_assignment PIN_C22 -to hsma_rx_d_p[12]
+set_location_assignment PIN_AD24 -to hsma_rx_d_p[13]
+set_location_assignment PIN_F17 -to hsma_rx_d_p[14]
+set_location_assignment PIN_E19 -to hsma_rx_d_p[15]
+set_location_assignment PIN_AB28 -to hsma_rx_d_p[16]
+set_location_assignment PIN_AJ15 -to hsma_clk_in_p[1] -disable
+set_location_assignment PIN_AC25 -to hsma_clk_out_p[1]
+set_location_assignment PIN_AE7 -to ~ALTERA_NCEO~
+set_location_assignment PIN_AE4 -to ~ALTERA_DATA5~
+set_location_assignment PIN_AE5 -to ~ALTERA_DATA6~
+set_location_assignment PIN_AE10 -to ~ALTERA_DATA7~
+set_location_assignment PIN_C2 -to ~ALTERA_DATA4~
+set_location_assignment PIN_D1 -to ~ALTERA_DATA3~
+set_location_assignment PIN_H9 -to ~ALTERA_DATA2~
+set_location_assignment PIN_A3 -to ~ALTERA_DATA0~
+set_location_assignment PIN_G9 -to ~ALTERA_ASDO_DATA1~
+set_location_assignment PIN_B3 -to ~ALTERA_DCLK~
+set_location_assignment PIN_AK15 -to "hsma_clk_in_p[1](n)" -disable
+set_location_assignment PIN_AB26 -to "hsma_clk_out_p[1](n)"
+set_location_assignment PIN_K29 -to "hsma_clk_out_p[2](n)"
+set_global_assignment -name SEARCH_PATH "c:/altera/10.1sp1/ip/altera/primitives/altera_std_synchronizer"
+set_global_assignment -name SEARCH_PATH sdi_dprio_civ/ -tag from_archive
+set_global_assignment -name SEARCH_PATH sdi_dprio_civ/pll_reconfiguration
+set_global_assignment -name SEARCH_PATH megacore_build/ -tag from_archive
+set_global_assignment -name SEARCH_PATH pattern_gen/ -tag from_archive
+set_global_assignment -name SEARCH_PATH megafunctions/
+set_global_assignment -name SEARCH_PATH "sdi-library/" -tag from_archive
+set_global_assignment -name SEARCH_PATH sdi_dprio_civ/pll_reconfiguration/ -tag from_archive
+set_global_assignment -name SEARCH_PATH 10.1sp1/c4gxsdi_q10.1sp1_restored/
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name MISC_FILE c4gx_f896_host.dpf
+set_global_assignment -name SDC_FILE c4gxsdi.sdc
+set_global_assignment -name VERILOG_FILE sdi_dprio_civ/c4gxb_altpll_reconfig.v
+set_global_assignment -name VERILOG_FILE megacore_build/pll_tx_pclks.v
+set_global_assignment -name VERILOG_FILE megacore_build/pll_50to27MHz.v
+set_global_assignment -name VERILOG_FILE megacore_build/lp_fifo.v
+set_global_assignment -name VERILOG_FILE hsmc_sdi.v
+set_global_assignment -name VERILOG_FILE c4gxsdi.v
+set_global_assignment -name SIGNALTAP_FILE stp1.stp
+set_global_assignment -name QIP_FILE C4gxSDI3G_rx_ch0.qip
+set_global_assignment -name QIP_FILE C4gxSDI3G_tx_ch0.qip
+set_global_assignment -name QIP_FILE C4gxSDI3G_tx_ch1.qip
+set_global_assignment -name QIP_FILE sdi_dprio_civ/pll_reconfiguration/pll_rom_3g.qip
+set_global_assignment -name CDF_FILE c4gxsdi.cdf

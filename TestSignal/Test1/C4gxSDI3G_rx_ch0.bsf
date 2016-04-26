@@ -1,0 +1,545 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2012 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 448 464)
+	(text "C4gxSDI3G_rx_ch0" (rect 5 0 118 12)(font "Arial" ))
+	(text "inst" (rect 8 432 36 444)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "rst_rx" (rect 0 0 42 12)(font "Arial" ))
+		(text "rst_rx" (rect 21 27 63 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "rx_serial_refclk" (rect 0 0 113 12)(font "Arial" ))
+		(text "rx_serial_refclk" (rect 21 43 134 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 1))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "sdi_rx[0..0]" (rect 0 0 84 12)(font "Arial" ))
+		(text "sdi_rx[0..0]" (rect 21 59 105 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "en_sync_switch" (rect 0 0 99 12)(font "Arial" ))
+		(text "en_sync_switch" (rect 21 75 120 87)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80)(line_width 1))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "enable_hd_search" (rect 0 0 113 12)(font "Arial" ))
+		(text "enable_hd_search" (rect 21 91 134 103)(font "Arial" ))
+		(line (pt 0 96)(pt 16 96)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "enable_sd_search" (rect 0 0 113 12)(font "Arial" ))
+		(text "enable_sd_search" (rect 21 107 134 119)(font "Arial" ))
+		(line (pt 0 112)(pt 16 112)(line_width 1))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "pll_areset" (rect 0 0 70 12)(font "Arial" ))
+		(text "pll_areset" (rect 21 123 91 135)(font "Arial" ))
+		(line (pt 0 128)(pt 16 128)(line_width 1))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "pll_configupdate" (rect 0 0 113 12)(font "Arial" ))
+		(text "pll_configupdate" (rect 21 139 134 151)(font "Arial" ))
+		(line (pt 0 144)(pt 16 144)(line_width 1))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "pll_scanclk" (rect 0 0 77 12)(font "Arial" ))
+		(text "pll_scanclk" (rect 21 155 98 167)(font "Arial" ))
+		(line (pt 0 160)(pt 16 160)(line_width 1))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "pll_scanclkena" (rect 0 0 99 12)(font "Arial" ))
+		(text "pll_scanclkena" (rect 21 171 120 183)(font "Arial" ))
+		(line (pt 0 176)(pt 16 176)(line_width 1))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "pll_scandata" (rect 0 0 84 12)(font "Arial" ))
+		(text "pll_scandata" (rect 21 187 105 199)(font "Arial" ))
+		(line (pt 0 192)(pt 16 192)(line_width 1))
+	)
+	(port
+		(pt 0 208)
+		(input)
+		(text "refclk_rate" (rect 0 0 77 12)(font "Arial" ))
+		(text "refclk_rate" (rect 21 203 98 215)(font "Arial" ))
+		(line (pt 0 208)(pt 16 208)(line_width 1))
+	)
+	(port
+		(pt 0 224)
+		(input)
+		(text "rx_serial_refclk1" (rect 0 0 120 12)(font "Arial" ))
+		(text "rx_serial_refclk1" (rect 21 219 141 231)(font "Arial" ))
+		(line (pt 0 224)(pt 16 224)(line_width 1))
+	)
+	(port
+		(pt 0 240)
+		(input)
+		(text "rx_serial_refclk_clkswitch" (rect 0 0 184 12)(font "Arial" ))
+		(text "rx_serial_refclk_clkswitch" (rect 21 235 205 247)(font "Arial" ))
+		(line (pt 0 240)(pt 16 240)(line_width 1))
+	)
+	(port
+		(pt 0 256)
+		(input)
+		(text "rx_coreclk" (rect 0 0 70 12)(font "Arial" ))
+		(text "rx_coreclk" (rect 21 251 91 263)(font "Arial" ))
+		(line (pt 0 256)(pt 16 256)(line_width 1))
+	)
+	(port
+		(pt 0 272)
+		(input)
+		(text "gxb4_cal_clk" (rect 0 0 84 12)(font "Arial" ))
+		(text "gxb4_cal_clk" (rect 21 267 105 279)(font "Arial" ))
+		(line (pt 0 272)(pt 16 272)(line_width 1))
+	)
+	(port
+		(pt 0 288)
+		(input)
+		(text "sdi_reconfig_clk" (rect 0 0 113 12)(font "Arial" ))
+		(text "sdi_reconfig_clk" (rect 21 283 134 295)(font "Arial" ))
+		(line (pt 0 288)(pt 16 288)(line_width 1))
+	)
+	(port
+		(pt 0 304)
+		(input)
+		(text "sdi_gxb_powerdown" (rect 0 0 120 12)(font "Arial" ))
+		(text "sdi_gxb_powerdown" (rect 21 299 141 311)(font "Arial" ))
+		(line (pt 0 304)(pt 16 304)(line_width 1))
+	)
+	(port
+		(pt 0 320)
+		(input)
+		(text "sdi_reconfig_togxb[3..0]" (rect 0 0 169 12)(font "Arial" ))
+		(text "sdi_reconfig_togxb[3..0]" (rect 21 315 190 327)(font "Arial" ))
+		(line (pt 0 320)(pt 16 320)(line_width 3))
+	)
+	(port
+		(pt 0 336)
+		(input)
+		(text "enable_3g_search" (rect 0 0 113 12)(font "Arial" ))
+		(text "enable_3g_search" (rect 21 331 134 343)(font "Arial" ))
+		(line (pt 0 336)(pt 16 336)(line_width 1))
+	)
+	(port
+		(pt 432 32)
+		(output)
+		(text "rxdata[19..0]" (rect 0 0 92 12)(font "Arial" ))
+		(text "rxdata[19..0]" (rect 319 27 411 39)(font "Arial" ))
+		(line (pt 432 32)(pt 416 32)(line_width 3))
+	)
+	(port
+		(pt 432 48)
+		(output)
+		(text "rx_data_valid_out[1..0]" (rect 0 0 162 12)(font "Arial" ))
+		(text "rx_data_valid_out[1..0]" (rect 249 43 411 55)(font "Arial" ))
+		(line (pt 432 48)(pt 416 48)(line_width 3))
+	)
+	(port
+		(pt 432 64)
+		(output)
+		(text "crc_error_y[1..0]" (rect 0 0 120 12)(font "Arial" ))
+		(text "crc_error_y[1..0]" (rect 291 59 411 71)(font "Arial" ))
+		(line (pt 432 64)(pt 416 64)(line_width 3))
+	)
+	(port
+		(pt 432 80)
+		(output)
+		(text "crc_error_c[1..0]" (rect 0 0 120 12)(font "Arial" ))
+		(text "crc_error_c[1..0]" (rect 291 75 411 87)(font "Arial" ))
+		(line (pt 432 80)(pt 416 80)(line_width 3))
+	)
+	(port
+		(pt 432 96)
+		(output)
+		(text "rx_anc_data[19..0]" (rect 0 0 127 12)(font "Arial" ))
+		(text "rx_anc_data[19..0]" (rect 284 91 411 103)(font "Arial" ))
+		(line (pt 432 96)(pt 416 96)(line_width 3))
+	)
+	(port
+		(pt 432 112)
+		(output)
+		(text "rx_anc_valid[3..0]" (rect 0 0 127 12)(font "Arial" ))
+		(text "rx_anc_valid[3..0]" (rect 284 107 411 119)(font "Arial" ))
+		(line (pt 432 112)(pt 416 112)(line_width 3))
+	)
+	(port
+		(pt 432 128)
+		(output)
+		(text "rx_anc_error[3..0]" (rect 0 0 127 12)(font "Arial" ))
+		(text "rx_anc_error[3..0]" (rect 284 123 411 135)(font "Arial" ))
+		(line (pt 432 128)(pt 416 128)(line_width 3))
+	)
+	(port
+		(pt 432 144)
+		(output)
+		(text "rx_std_flag_hd_sdn[0..0]" (rect 0 0 169 12)(font "Arial" ))
+		(text "rx_std_flag_hd_sdn[0..0]" (rect 242 139 411 151)(font "Arial" ))
+		(line (pt 432 144)(pt 416 144)(line_width 3))
+	)
+	(port
+		(pt 432 160)
+		(output)
+		(text "rx_clk" (rect 0 0 42 12)(font "Arial" ))
+		(text "rx_clk" (rect 369 155 411 167)(font "Arial" ))
+		(line (pt 432 160)(pt 416 160)(line_width 1))
+	)
+	(port
+		(pt 432 176)
+		(output)
+		(text "rx_F[1..0]" (rect 0 0 70 12)(font "Arial" ))
+		(text "rx_F[1..0]" (rect 341 171 411 183)(font "Arial" ))
+		(line (pt 432 176)(pt 416 176)(line_width 3))
+	)
+	(port
+		(pt 432 192)
+		(output)
+		(text "rx_V[1..0]" (rect 0 0 70 12)(font "Arial" ))
+		(text "rx_V[1..0]" (rect 341 187 411 199)(font "Arial" ))
+		(line (pt 432 192)(pt 416 192)(line_width 3))
+	)
+	(port
+		(pt 432 208)
+		(output)
+		(text "rx_H[1..0]" (rect 0 0 70 12)(font "Arial" ))
+		(text "rx_H[1..0]" (rect 341 203 411 215)(font "Arial" ))
+		(line (pt 432 208)(pt 416 208)(line_width 3))
+	)
+	(port
+		(pt 432 224)
+		(output)
+		(text "rx_AP[1..0]" (rect 0 0 77 12)(font "Arial" ))
+		(text "rx_AP[1..0]" (rect 334 219 411 231)(font "Arial" ))
+		(line (pt 432 224)(pt 416 224)(line_width 3))
+	)
+	(port
+		(pt 432 240)
+		(output)
+		(text "rx_status[10..0]" (rect 0 0 113 12)(font "Arial" ))
+		(text "rx_status[10..0]" (rect 298 235 411 247)(font "Arial" ))
+		(line (pt 432 240)(pt 416 240)(line_width 3))
+	)
+	(port
+		(pt 432 256)
+		(output)
+		(text "rx_ln[21..0]" (rect 0 0 84 12)(font "Arial" ))
+		(text "rx_ln[21..0]" (rect 327 251 411 263)(font "Arial" ))
+		(line (pt 432 256)(pt 416 256)(line_width 3))
+	)
+	(port
+		(pt 432 272)
+		(output)
+		(text "rx_xyz" (rect 0 0 42 12)(font "Arial" ))
+		(text "rx_xyz" (rect 369 267 411 279)(font "Arial" ))
+		(line (pt 432 272)(pt 416 272)(line_width 1))
+	)
+	(port
+		(pt 432 288)
+		(output)
+		(text "xyz_valid" (rect 0 0 63 12)(font "Arial" ))
+		(text "xyz_valid" (rect 348 283 411 295)(font "Arial" ))
+		(line (pt 432 288)(pt 416 288)(line_width 1))
+	)
+	(port
+		(pt 432 304)
+		(output)
+		(text "rx_eav" (rect 0 0 42 12)(font "Arial" ))
+		(text "rx_eav" (rect 369 299 411 311)(font "Arial" ))
+		(line (pt 432 304)(pt 416 304)(line_width 1))
+	)
+	(port
+		(pt 432 320)
+		(output)
+		(text "rx_trs" (rect 0 0 42 12)(font "Arial" ))
+		(text "rx_trs" (rect 369 315 411 327)(font "Arial" ))
+		(line (pt 432 320)(pt 416 320)(line_width 1))
+	)
+	(port
+		(pt 432 336)
+		(output)
+		(text "pll_scandataout" (rect 0 0 106 12)(font "Arial" ))
+		(text "pll_scandataout" (rect 305 331 411 343)(font "Arial" ))
+		(line (pt 432 336)(pt 416 336)(line_width 1))
+	)
+	(port
+		(pt 432 352)
+		(output)
+		(text "pll_scandone" (rect 0 0 84 12)(font "Arial" ))
+		(text "pll_scandone" (rect 327 347 411 359)(font "Arial" ))
+		(line (pt 432 352)(pt 416 352)(line_width 1))
+	)
+	(port
+		(pt 432 368)
+		(output)
+		(text "rx_video_format[7..0]" (rect 0 0 148 12)(font "Arial" ))
+		(text "rx_video_format[7..0]" (rect 263 363 411 375)(font "Arial" ))
+		(line (pt 432 368)(pt 416 368)(line_width 3))
+	)
+	(port
+		(pt 432 384)
+		(output)
+		(text "sdi_reconfig_fromgxb[16..0]" (rect 0 0 191 12)(font "Arial" ))
+		(text "sdi_reconfig_fromgxb[16..0]" (rect 220 379 411 391)(font "Arial" ))
+		(line (pt 432 384)(pt 416 384)(line_width 3))
+	)
+	(port
+		(pt 432 400)
+		(output)
+		(text "rx_std[1..0]" (rect 0 0 84 12)(font "Arial" ))
+		(text "rx_std[1..0]" (rect 327 395 411 407)(font "Arial" ))
+		(line (pt 432 400)(pt 416 400)(line_width 3))
+	)
+	(port
+		(pt 432 416)
+		(output)
+		(text "sdi_start_reconfig" (rect 0 0 127 12)(font "Arial" ))
+		(text "sdi_start_reconfig" (rect 284 411 411 423)(font "Arial" ))
+		(line (pt 432 416)(pt 416 416)(line_width 1))
+	)
+	(parameter
+		"QTB"
+		"on"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_direction"
+		"Rx"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_test_pattern"
+		"false"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_num_channels"
+		"1"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_standard"
+		"MR"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_rate_flag"
+		"false"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_crc_flag"
+		"true"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_enable_soft_serdes"
+		"false"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_tx_clk_option"
+		"no_pll"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_rx_clk_option"
+		"no_pll"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_fvh_flag"
+		"true"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_os_mode"
+		"false"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_serdes_type"
+		" "
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_tcvr_protocol_select"
+		"tcvr_protocol"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_starting_channel_number"
+		"0"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_tolerate_missed_eav"
+		"15"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_debugMode"
+		"false"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_enable_pll_reconfig"
+		"true"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_enable_tx_clk_mux"
+		"false"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_enable_ssc"
+		"false"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_devicefamily"
+		"Cyclone IV GX"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_dlparam"
+		"false"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_dsparam"
+		"false"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_duplex"
+		"false"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_hdparam"
+		"false"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_mrparam"
+		"true"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_multiXcvrText0"
+		"Device Behavior for Multiple Transceivers"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_multiXcvrText1"
+		"Cyclone IV GX EP4CGX30CF23,50,75,110,150 have 3MPLLs per quad. 30CF23,"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_multiXcvrText2"
+		"50,75 have local clock divider allowing 1MPLL driving all the receiver channels."
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_multiXcvrText3"
+		"Channel reconfiguration is supported in these devices. The other 2MPLLs"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_multiXcvrText4"
+		"allow each transmitter to run at one of two independent rates. 110,150 have"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_multiXcvrText5"
+		"no local clock divider, which prevents them from operating independently."
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_multiXcvrText6"
+		"2MPLLs for receiver channel independently and 1MPLL shared among the"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_multiXcvrText7"
+		"transmitter channels. PLL reconfiguration is the only option for 110,150."
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_rx"
+		"true"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_sdparam"
+		"false"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_starting_channel_text_0"
+		"Each SDI core must have a unique starting channel number."
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_starting_channel_text_1"
+		"See ALTERA GXB or SDI user guide for more info."
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_threegparam"
+		"false"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_tx"
+		"false"
+		""
+		(type "PARAMETER_STRING")	)
+	(drawing
+		(rectangle (rect 16 16 416 432)(line_width 1))
+	)
+	(annotation_block (parameter)(rect 448 -64 548 16))
+)

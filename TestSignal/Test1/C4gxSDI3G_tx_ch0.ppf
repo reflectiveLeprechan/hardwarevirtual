@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<pinplan variation_name="C4gxSDI3G_tx_ch0" megafunction_name="SDI" default_scope="internal" specifies="all_ports" >
+<global>
+<pin name="rst_tx" direction="input"/>
+<pin name="tx_pclk" direction="input"/>
+<pin name="tx_serial_refclk" direction="input"/>
+<pin name="sdi_tx" direction="output"/>
+<pin name="txdata[19..0]"  direction="input"/>
+<pin name="txdata[19]"  direction="input"/>
+<pin name="txdata[18]"  direction="input"/>
+<pin name="txdata[17]"  direction="input"/>
+<pin name="txdata[16]"  direction="input"/>
+<pin name="txdata[15]"  direction="input"/>
+<pin name="txdata[14]"  direction="input"/>
+<pin name="txdata[13]"  direction="input"/>
+<pin name="txdata[12]"  direction="input"/>
+<pin name="txdata[11]"  direction="input"/>
+<pin name="txdata[10]"  direction="input"/>
+<pin name="txdata[9]"  direction="input"/>
+<pin name="txdata[8]"  direction="input"/>
+<pin name="txdata[7]"  direction="input"/>
+<pin name="txdata[6]"  direction="input"/>
+<pin name="txdata[5]"  direction="input"/>
+<pin name="txdata[4]"  direction="input"/>
+<pin name="txdata[3]"  direction="input"/>
+<pin name="txdata[2]"  direction="input"/>
+<pin name="txdata[1]"  direction="input"/>
+<pin name="txdata[0]"  direction="input"/>
+<pin name="tx_trs" direction="input"/>
+<pin name="tx_ln[21..0]"  direction="input"/>
+<pin name="tx_ln[21]"  direction="input"/>
+<pin name="tx_ln[20]"  direction="input"/>
+<pin name="tx_ln[19]"  direction="input"/>
+<pin name="tx_ln[18]"  direction="input"/>
+<pin name="tx_ln[17]"  direction="input"/>
+<pin name="tx_ln[16]"  direction="input"/>
+<pin name="tx_ln[15]"  direction="input"/>
+<pin name="tx_ln[14]"  direction="input"/>
+<pin name="tx_ln[13]"  direction="input"/>
+<pin name="tx_ln[12]"  direction="input"/>
+<pin name="tx_ln[11]"  direction="input"/>
+<pin name="tx_ln[10]"  direction="input"/>
+<pin name="tx_ln[9]"  direction="input"/>
+<pin name="tx_ln[8]"  direction="input"/>
+<pin name="tx_ln[7]"  direction="input"/>
+<pin name="tx_ln[6]"  direction="input"/>
+<pin name="tx_ln[5]"  direction="input"/>
+<pin name="tx_ln[4]"  direction="input"/>
+<pin name="tx_ln[3]"  direction="input"/>
+<pin name="tx_ln[2]"  direction="input"/>
+<pin name="tx_ln[1]"  direction="input"/>
+<pin name="tx_ln[0]"  direction="input"/>
+<pin name="tx_status" direction="output"/>
+<pin name="enable_ln" direction="input"/>
+<pin name="enable_crc" direction="input"/>
+<pin name="gxb4_cal_clk" direction="input"/>
+<pin name="gxb_tx_clkout" direction="output"/>
+<pin name="sdi_reconfig_clk" direction="input"/>
+<pin name="sdi_gxb_powerdown" direction="input"/>
+<pin name="sdi_reconfig_togxb[3..0]"  direction="input"/>
+<pin name="sdi_reconfig_togxb[3]"  direction="input"/>
+<pin name="sdi_reconfig_togxb[2]"  direction="input"/>
+<pin name="sdi_reconfig_togxb[1]"  direction="input"/>
+<pin name="sdi_reconfig_togxb[0]"  direction="input"/>
+<pin name="sdi_reconfig_fromgxb[16..0]"  direction="output"/>
+<pin name="sdi_reconfig_fromgxb[16]"  direction="output"/>
+<pin name="sdi_reconfig_fromgxb[15]"  direction="output"/>
+<pin name="sdi_reconfig_fromgxb[14]"  direction="output"/>
+<pin name="sdi_reconfig_fromgxb[13]"  direction="output"/>
+<pin name="sdi_reconfig_fromgxb[12]"  direction="output"/>
+<pin name="sdi_reconfig_fromgxb[11]"  direction="output"/>
+<pin name="sdi_reconfig_fromgxb[10]"  direction="output"/>
+<pin name="sdi_reconfig_fromgxb[9]"  direction="output"/>
+<pin name="sdi_reconfig_fromgxb[8]"  direction="output"/>
+<pin name="sdi_reconfig_fromgxb[7]"  direction="output"/>
+<pin name="sdi_reconfig_fromgxb[6]"  direction="output"/>
+<pin name="sdi_reconfig_fromgxb[5]"  direction="output"/>
+<pin name="sdi_reconfig_fromgxb[4]"  direction="output"/>
+<pin name="sdi_reconfig_fromgxb[3]"  direction="output"/>
+<pin name="sdi_reconfig_fromgxb[2]"  direction="output"/>
+<pin name="sdi_reconfig_fromgxb[1]"  direction="output"/>
+<pin name="sdi_reconfig_fromgxb[0]"  direction="output"/>
+<pin name="tx_std[1..0]"  direction="input"/>
+<pin name="tx_std[1]"  direction="input"/>
+<pin name="tx_std[0]"  direction="input"/>
+<pin name="tx_pclk" description="Transmitter parallel clock input" direction="input" source="clock" scope="external" />
+<pin name="tx_serial_refclk" description="Transceiver reference clock" direction="input" source="clock" scope="external" />
+<pin name="sdi_tx" description="SDI serial output" direction="output" source="logic" scope="external" />
+</global>
+</pinplan>

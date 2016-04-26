@@ -1,0 +1,10 @@
+module demux(sel, din , [64:1] dout);
+input  din;
+input[6:0] sel;
+output [64:1] dout;
+         
+reg    dout[64:1];
+         
+always @(sel or din) begin
+	
+end
